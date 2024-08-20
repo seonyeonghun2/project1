@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+  font: normal 16px/1.5 dotum, sans-serif;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+th,
+td {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#add_form,
+#login_form {
+  max-width: 60%;
+  margin: 0 auto;
+}
+#add_form .row,
+#login_form .row {
+  display: flex;
+  margin: 1rem;
+}
+.row.center {
+  justify-content: center;
+}
+.row label {
+  flex: 1;
+}
+.row input {
+  flex: 3;
+}
+.row button {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+}
